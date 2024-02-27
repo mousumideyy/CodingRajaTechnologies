@@ -4,10 +4,10 @@ import numpy as np
 import tensorflow as tf
 
 # Load pre-trained object detection model (e.g., YOLO or Faster R-CNN)
-# Model loading code goes here
+# Model loading code done here
 
 # Initialize video capture
-cap = cv2.VideoCapture("input_video.mp4")  # Replace "input_video.mp4" with your video file
+cap = cv2.VideoCapture("invideo.mp4")  # Here Replace "input_video.mp4" with your video file
 
 # Define object detection function
 def detect_objects(frame):
